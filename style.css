@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#main{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: rgb(44, 46, 46);
+    width: 200px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.result{
+    
+    margin-top: 30%;
+    
+    
+}
+
+.card-result{
+    font-size: large;
+    border-radius: 25px;
+    position: relative;
+    left: 40px;
+    background-color: rgb(145, 151, 151);
+    width: 120px;
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+#resultado{
+    position: absolute;
+    left: 45px;
+    margin-top: 20%;
+}
+
+#button-game{
+    margin-top: 35%;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(145, 151, 151);
+}
+
+
+#button-reset{
+    margin-top: 35%;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+@media screen and (min-width: 826px) {
+    #main{
+        margin-left:1%;
+        
+    }
+
+  }
